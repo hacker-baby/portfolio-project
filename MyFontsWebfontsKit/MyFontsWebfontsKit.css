@@ -1,0 +1,27 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4491775, 2022-03-13T04:57:46-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: RasputinRegular by Jehoo Creative
+ * URL: https://www.myfonts.com/fonts/jehoo-creative/rasputin/regular/
+ * Copyright: null
+ * 
+ * 
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+
+  
+@font-face {
+  font-family: "RasputinRegular";
+  src: url('webFonts/RasputinRegular/font.woff2') format('woff2'), url('webFonts/RasputinRegular/font.woff') format('woff');
+}
+
