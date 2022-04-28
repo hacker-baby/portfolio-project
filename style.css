@@ -12,10 +12,14 @@ p {
 
 .container {
   border: 1px solid;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .contact {
   font-family: "RasputinRegular";
+  font-size: 18px;
+}
+
+.text-wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
 }
