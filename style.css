@@ -1,25 +1,7 @@
-    .menu {
-      display: flex;
-      justify-content: flex-end;
-    }
-    .nav-link {
-      padding: 0px;
-      transition: opacity 400ms ease;
-      font-family: "RasputinRegular";
-      color: black;
-      font-size: 0.9em;
-      line-height: 1em;
-      font-weight: 400;
-      text-decoration: none;
-      text-transform: lowercase;
-      cursor: pointer;
-    }
-    .w-nav-link {
-      position: relative;
-      display: inline-block;
-      vertical-align: top;
-      text-decoration: none;
-      color: #222222;
-      text-align: left;
-      margin-left: auto;
-    }
+h1 {
+    font-family: "RasputinRegular";
+}
+
+p { 
+    font-family: 'Space Grotesk', sans-serif;
+}
