@@ -1,7 +1,17 @@
+body {
+  background: #eeeee6;
+}
+
 h1 {
   font-family: "RasputinRegular";
 }
 
 p {
   font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
+  border: 1px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
