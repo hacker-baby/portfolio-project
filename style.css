@@ -10,15 +10,18 @@ p {
   font-family: "Space Grotesk", sans-serif;
 }
 
+.border-wrapper {
+  padding: 100px;
+}
 .container {
   border: 1px solid;
+  padding: 100px;
 }
 
 .contact {
   font-family: "RasputinRegular";
   font-size: 18px;
 }
-
 .text-wrapper {
   margin-left: 20px;
   margin-right: 20px;
