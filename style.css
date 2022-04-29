@@ -12,8 +12,13 @@ h1 {
   font-family: var(--heading-font-family);
 }
 
-p {
+p,
+h2 {
   font-family: var(--default-font-family);
+}
+
+.header {
+  text-align: center;
 }
 
 .border-wrapper {
@@ -28,6 +33,11 @@ p {
   font-family: var(--heading-font-family);
   font-size: 18px;
 }
+.portfolio {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+}
+
 .text-wrapper {
   margin-left: 20px;
   margin-right: 20px;
