@@ -1,7 +1,7 @@
 :root {
   --branding-color: #eeeee6;
   --body-color: #1c1a19;
-  --secondary-color: rgba(28, 26, 25, 0.555);
+  --secondary-color: #a6a6a6;
   --heading-font-family: "RasputinRegular";
   --default-font-family: "Space Grotesk", sans-serif;
 }
@@ -63,6 +63,38 @@ a:hover {
 .contact-links {
   text-decoration: none;
   color: var(--body-color);
+}
+
+.icon {
+  max-width: 40px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-family: var(--default-font-family);
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  color: var(--body-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
 }
 
 #flexbox {
