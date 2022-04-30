@@ -34,8 +34,12 @@ p {
 }
 
 .content-container {
+  padding: 50px;
+}
+
+.about-container {
   border: 1px solid;
-  padding: 100px;
+  padding: 50px;
 }
 
 .text-wrapper {
