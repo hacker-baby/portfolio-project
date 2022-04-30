@@ -13,10 +13,6 @@ h5 {
   font-family: var(--heading-font-family);
 }
 
-h3 {
-  font-family: var(--default-font-family);
-}
-
 p {
   font-size: 16px;
   font-family: var(--default-font-family);
@@ -24,6 +20,10 @@ p {
 
 .header {
   text-align: center;
+}
+
+.description {
+  font-family: var(--default-font-family);
 }
 
 .section {
@@ -47,6 +47,10 @@ p {
 .portfolio-btn {
   font-family: var(--heading-font-family);
   font-size: 18px;
+}
+
+#flexbox {
+  display: flex;
 }
 
 @media (max-width: 600px) {
