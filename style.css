@@ -1,11 +1,13 @@
 :root {
   --branding-color: #eeeee6;
+  --body-color: #1c1a19;
   --heading-font-family: "RasputinRegular";
   --default-font-family: "Space Grotesk", sans-serif;
 }
 
 body {
   background: var(--branding-color);
+  color: var(--body-color);
 }
 
 h1,
@@ -47,6 +49,16 @@ p {
 .portfolio-btn {
   font-family: var(--heading-font-family);
   font-size: 18px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--body-color);
+}
+
+.contact-links {
+  text-decoration: none;
+  color: var(--body-color);
 }
 
 #flexbox {
