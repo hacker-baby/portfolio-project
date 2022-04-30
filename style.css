@@ -1,6 +1,7 @@
 :root {
   --branding-color: #eeeee6;
   --body-color: #1c1a19;
+  --secondary-color: rgba(28, 26, 25, 0.555);
   --heading-font-family: "RasputinRegular";
   --default-font-family: "Space Grotesk", sans-serif;
 }
@@ -51,11 +52,14 @@ p {
   font-size: 18px;
 }
 
+.contact-descriptions {
+  color: var(--secondary-color);
+}
+
 a:hover {
   text-decoration: none;
   color: var(--body-color);
 }
-
 .contact-links {
   text-decoration: none;
   color: var(--body-color);
